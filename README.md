@@ -11,9 +11,11 @@
 
 ## 진도 목차(미정)
 - [Queue 구현](./__NOTE/01/queue_impl.md)
-- Stack 구현
-- 두개의 Stack으로 Queue 구현
-- Stack 정렬
+  - 변수와 함수 스코프, 객체와 배열
+- [Stack 구현](./__NOTE/01/stack_imple)
+  - 함수, 템플릿 리터럴, Promise
+- 두개의 Stack으로 Queue 구현, Stack 정렬
+  - iterator, for in&of
 - 단방향 LinkedList 구현
 - LinkedList로 Queue 구현
 - Graph 구현
