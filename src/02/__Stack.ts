@@ -1,3 +1,4 @@
+/*
 // tsc Stack.ts && node Stack.js
 class SNode<T> {
   public data: T; // 현재 들어온 데이터
@@ -57,3 +58,4 @@ console.log(s);
 // console.log(s.pop()); // 3
 
 export default Stack;
+*/
