@@ -1,0 +1,19 @@
+{
+  "include": [
+      "src/**/*.ts"
+  ],
+  "exclude": [
+      "node_modules"
+  ],
+  "compilerOptions": {
+      "rootDirs": ["./src/**/*.ts"],
+      "module": "commonjs",
+      "rootDir": "src",
+      "outDir": "dist",
+      "target": "es6",
+      "lib": ["es5","es6","dom"],  
+      "sourceMap": true,
+      "removeComments": true,
+      "noImplicitAny": true,
+  }
+}

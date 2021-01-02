@@ -15,7 +15,10 @@
 - [Stack 구현](./__NOTE/01/stack_imple)
   - 함수, 템플릿 리터럴, Promise
 - 두개의 Stack으로 Queue 구현
-  - Stack 정렬
+  - 피보나치수열, 재귀
+  - 타입스크립트 기본 문법(배열, 객체, 타입별칭, 함수)
+- Stack 정렬
+  - 꼬리재귀
   - iterator, for in&of
 - 단방향 LinkedList 구현
 - LinkedList로 Queue 구현

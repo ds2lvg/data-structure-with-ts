@@ -64,7 +64,7 @@ const s = new Stack<number>();
 // s.push(1);
 // s.push(1);
 // s.push(1);
-console.log(s.size()); 
+// console.log(s.size()); 
 // console.log(s.pop()); // 4
 // console.log(s.peek()); // 3
 // console.log(s.isEmpty()); // false

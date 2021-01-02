@@ -6,16 +6,24 @@
  * f(n) = f(n - 1) + f(n - 2)
  * f(1) = f(2) = 1
  */
-class Fibonacci<T> { 
 
+function factorial(n: number): number {
+    return n === 1 ? 1 : n * factorial(n-1);
+}
+console.log(factorial(3));
+
+// 클래스로 재귀 최적화
+class Fib<T> { 
+    arr: Array<number> = []; // number[]
     fibo( n: number): number {
-    
-        if ( n == 1 || n == 2 ) {
-            return 1;
+        if ( n == 1) {
+            return this.arr[1] = 1;
+        } else if (n == 2 ) {
+            return this.arr[2] = 1;
+        } else if(this.arr[n] > 0) {
+            return this.arr[n];
         } else {
-            // 재귀 호출?
-            let res = this.fibo(n-1) + this.fibo(n-2)
-            return res;
+            return this.arr[n] = this.fibo(n-1) + this.fibo(n-2);
         }
      }
 
@@ -29,5 +37,18 @@ class Fibonacci<T> {
      }
 
 }
-const fibona = new Fibonacci<number>();
-console.log(fibona.fibonacciAraay(20));
+const fib = new Fib<number>();
+// console.log(fib.fibo(77)); // 5527939700884757
+
+// 함수로 재귀 최적화
+function fibo( n: number, arr: number[]): number {
+    if ( n == 1) {
+        return arr[1] = 1;
+    } else if (n == 2 ) {
+        return arr[2] = 1;
+    } else if(arr[n] > 0) {
+        return arr[n];
+    } else {
+        return arr[n] = fibo(n-1, arr) + fibo(n-2, arr);
+    }
+ }
