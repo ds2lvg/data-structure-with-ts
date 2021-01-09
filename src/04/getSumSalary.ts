@@ -8,3 +8,30 @@ const company = {
     internals: [{name: 'Jack', salary: 1300}]
   }
 };
+
+function salary1():number  { 
+  let total = company.sales[0].salary + company.sales[1].salary
+    +company.development.sites[0].salary +company.development.sites[1].salary
+    +company.development.internals[0].salary;
+    return total;
+}
+function salary2():number  { 
+  let sales = 0;
+  let sites = 0;
+  let internals = 0;
+  let total = 0;
+
+  for(let sal of company.sales) {
+    sales += sal.salary;
+  }
+  for(let sit of company.development.sites) {
+    sites += sit.salary;
+  }
+  for(let int of company.development.internals) {
+    internals += int.salary;
+  }
+    return total = sales+sites+internals;
+}
+
+console.log('1',salary1());
+console.log('2',salary1())
