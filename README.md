@@ -31,7 +31,6 @@
   - 단방향 LinkedList 구현 
 - [Day 7]()
   - LinkedList로 Queue 구현
-- [Day 8]()
   - Graph 구현(※ 수업전 Stack과 generic 써서 리팩토링 할것)
-- [Day 9]()
+- [Day 8]()
   - Graph 검색 DFS, BFS 구현
