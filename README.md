@@ -25,8 +25,13 @@
   - iterator, for in&of
   - 꼬리재귀, 재귀심화
 - [Day 5]()
-  - 단방향 LinkedList 구현
+  - 빅오 표기법(Big-o Notation)
   - 제너릭, 유니온타입, 인터센션타입, 열거형
-- LinkedList로 Queue 구현
-- Graph 구현(※ 수업전 Stack과 generic 써서 리팩토링 할것)
+- [Day 6]()
+  - 단방향 LinkedList 구현 
+- [Day 7]()
+  - LinkedList로 Queue 구현
+- [Day 8]()
+  - Graph 구현(※ 수업전 Stack과 generic 써서 리팩토링 할것)
+- [Day 9]()
   - Graph 검색 DFS, BFS 구현
