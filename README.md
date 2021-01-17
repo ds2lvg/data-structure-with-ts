@@ -28,9 +28,10 @@
   - 빅오 표기법(Big-o Notation)
   - 제너릭, 유니온타입, 인터센션타입, 열거형
 - [Day 6]()
-  - 단방향 LinkedList 구현 
-- [Day 7]()
+  - 단방향 LinkedList 구현
   - LinkedList로 Queue 구현
+  - 인터페이스와 클래스
+- [Day 7]()
   - Graph 구현(※ 수업전 Stack과 generic 써서 리팩토링 할것)
 - [Day 8]()
   - Graph 검색 DFS, BFS 구현
