@@ -31,6 +31,11 @@
   - 단방향 LinkedList 구현
   - 인터페이스와 클래스
 - [Day 7]()
-  - Graph 구현(※ 수업전 Stack과 generic 써서 리팩토링 할것)
+  - Binary Tree와 3가지 순회방법
+    - inorder, preorder, postorder
 - [Day 8]()
+  - Graph 구현(※ 수업전 Stack과 generic 써서 리팩토링 할것)
   - Graph 검색 DFS, BFS 구현
+- [Day 9]()
+  - Typescript 고급문법
+

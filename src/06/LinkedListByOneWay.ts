@@ -86,6 +86,6 @@ linkedList.append(1);
 linkedList.append(2);
 linkedList.append(3);
 linkedList.append(4);
-linkedList.retrieve();
+// linkedList.retrieve();
 linkedList.delete(1); // 첫번째 데이터 삭제 가능
-linkedList.retrieve();
+// linkedList.retrieve();
