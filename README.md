@@ -24,18 +24,20 @@
   - Stack 정렬
   - iterator, for in&of
   - 꼬리재귀, 재귀심화
-- [Day 5]()
+- [Day 5](./__NOTE/05/Big-O_Notation.md)
   - 빅오 표기법(Big-o Notation)
   - 제너릭, 유니온타입, 인터센션타입, 열거형
 - [Day 6]()
   - 단방향 LinkedList 구현
   - 인터페이스와 클래스
-- [Day 7]()
+- [Day 7](./__NOTE/07/재귀와콜스택.md)
+  - 재귀와 콜스택
   - Binary Tree와 3가지 순회방법
     - inorder, preorder, postorder
 - [Day 8]()
-  - Graph 구현(※ 수업전 Stack과 generic 써서 리팩토링 할것)
-  - Graph 검색 DFS, BFS 구현
+  - Graph와 DFS, BFS 구현
+  - 타입 추론과 타입 단언
+    - https://hyunseob.github.io/2017/12/12/typescript-type-inteference-and-type-assertion/
 - [Day 9]()
   - Typescript 고급문법
 
