@@ -8,6 +8,8 @@
 - 타입스크립트로 자료구조를 구현해본다.
 - 타입스크립트 문법 공부를 하루 한장씩 끝낸다.
   - https://ahnheejong.gitbook.io/ts-for-jsdev/01-introducing-typescript/intro
+- 공식 핸드북
+  - https://typescript-kr.github.io/
 
 ## 진도 목차(미정)
 - [Day 1](./__NOTE/01/queue_impl.md)
