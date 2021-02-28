@@ -41,5 +41,6 @@
   - 타입 추론과 타입 단언
     - https://hyunseob.github.io/2017/12/12/typescript-type-inteference-and-type-assertion/
 - [Day 9]()
-  - Typescript 고급문법
+  - Typescript 타입 고급(인터페이스와 타입, 타입가드, 동적키추론)
+  - https://ahnheejong.gitbook.io/ts-for-jsdev/05-type-compatibility/primitive-types
 
